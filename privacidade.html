@@ -61,7 +61,21 @@ e a data do envio (para evitar envios duplicados). Nenhum dado de outros usuári
 <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>,
 incluindo os requisitos de Uso Limitado.</p>
 
-<h2>8. Contato</h2>
+<h2>8. Uso da API do TikTok</h2>
+<p>O aplicativo também publica os mesmos cortes na conta do canal ZWPGAMES no TikTok, usando a
+Content Posting API do TikTok. Com o login do dono da conta (TikTok Login Kit), ele recebe um token com as permissões:</p>
+<ul>
+  <li><code>user.info.basic</code>: identificador, nome e foto da própria conta, usados só para confirmar em qual conta postar;</li>
+  <li><code>video.upload</code>: enviar o vídeo como rascunho para o app do TikTok da própria conta;</li>
+  <li><code>video.publish</code>: publicar o vídeo na própria conta.</li>
+</ul>
+<p>O token do TikTok fica guardado apenas no computador do dono do canal e não é compartilhado. O aplicativo não acessa
+dados de seguidores, mensagens nem de outras contas. O acesso pode ser revogado a qualquer momento nas configurações
+de segurança do app do TikTok (gerenciamento de apps conectados); depois disso, o aplicativo apaga o token local na
+próxima vez que tentar usá-lo. O tratamento de dados pelo TikTok segue a
+<a href="https://www.tiktok.com/legal/privacy-policy">Política de Privacidade do TikTok</a>.</p>
+
+<h2>9. Contato</h2>
 <p>Dúvidas sobre esta política: <a href="mailto:zwpgames@gmail.com">zwpgames@gmail.com</a></p>
 
 <nav>
